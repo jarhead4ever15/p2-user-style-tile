@@ -1,0 +1,78 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 10px;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.masthead {
+	background: url(../img/triangular.png);
+	text-align: center;
+	border: 3px solid #000;
+}
+
+.style {
+	background: url(../img/triangular.png);
+	padding: 0 10px  10px 10px;
+}
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #EF0000;
+}
+
+h2 {
+	font-family: 'Playfair Display SC', serif;
+	color: #FFDA00;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.color-1 {
+	background: #EF0000;
+}
+
+.color-2 {
+	background: #FFDA00;
+}
+
+.color-3 {
+	background: #000;
+}
+
+.pattern-1 {
+	background: url(../img/triangular.png);
+}
+
+.pattern-2 {
+	background: url(../img/binding_light.png);
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
